@@ -1,6 +1,4 @@
-degree	location	start	end	description	detail
-Ph.D. in Economics	Clermont-Ferrand, France	2023-10-01		CERDI - University Clermont Auvergne - CNRS - IRD	
-Master in Development Economics	Clermont-Ferrand, France	2015-09-01	2018-08-01	CERDI - University Clermont Auvergne - CNRS - IRD	
-Master in Development Economics	Rio de Janeiro, Brasil	2017-01-01	2017-08-01	Fundação Getulio Vargas, Escola Brasileira de Economia e Finanças (EPGE) ; 	Visiting
-Bachelor in Economics	Paris, France	2013-09-01	2015-08-01	Université Paris 1 Panthéon-Sorbonne	
-Undergraduate degree	Paris, France	2013-09-01	2015-08-01	Lycée Turgot	Classe préparatoire aux Grandes Écoles
+degree;location;start;end;institution;detail1;detail2
+Ph.D. in Economics;Clermont-Ferrand, France;01/10/2023;;"CERDI - University Clermont Auvergne - CNRS - IRD	";Thesis supervision: Vianney Dequiedt (CERDI,UCA,FERDI) & Florian Léon (FERDI);Foundation for studies and Research on International Development (FERDI) - Banque de France partnership
+Master in Development Economics;Clermont-Ferrand, France;01/09/2015;01/08/2018;"CERDI - University Clermont Auvergne - CNRS - IRD	";Double major: Applied Economics & Project Analysis and Management;Visiting at Fundaçao Getulio Vargas, Escola Brasileira de Economia e Finanças (EPGE), Rio de Janeiro (BRA), Jan. 2017 - Aug. 2017
+Bachelor in Economics;Paris, France;01/09/2013;01/08/2015;Paris 1 Panthéon-Sorbonne University;Joint program with Lycée Turgot, Classe préparatoire aux Grandes Écoles ENS D2;

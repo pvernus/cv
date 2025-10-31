@@ -50,7 +50,7 @@
 #let __justify_align(left_body, right_body) = {
   block[
     #box(width: 4fr)[#left_body]
-    #box(width: 1fr)[
+    #box(width: 2fr)[
       #align(right)[
         #right_body
       ]
@@ -438,4 +438,3 @@
   )
   body
 }
-
