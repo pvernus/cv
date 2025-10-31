@@ -49,26 +49,44 @@ execute:
 
 ```{r setup, include=FALSE}
 library(typstcv)
-library(readr)
+library(tidyverse)
+library(lubridate)
 ```
 
+**Focus**: Political economy of foreign aid delivery mechanisms • Geopolitics of climate in low and middle income countries • Data analysis • Causal inference
+
 ## Work Experience
+
+```{r}
+#| output: asis
+read_delim(
+  file = "data/work.csv",
+  delim = ";",
+  locale = locale(encoding = "WINDOWS-1252"),
+  escape_double = FALSE, 
+  col_types = cols(start = col_date(format = "%d/%m/%Y"), 
+                   end = col_date(format = "%d/%m/%Y")), 
+  trim_ws = TRUE) |> 
+  format_date(end = "end") |>
+  resume_entry(title = "position",
+               location = "location",
+               description = "employer", 
+               details = c("detail1", "detail2", "detail3"))
+```
 
 
 ## Education
 
 ```{r}
 #| output: asis
-educ <- read_delim(
+read_delim(
   file = "data/education.csv",
+  delim = ";",
   locale = locale(encoding = "WINDOWS-1252"),
-  delim = ";", 
   escape_double = FALSE, 
   col_types = cols(start = col_date(format = "%d/%m/%Y"), 
                    end = col_date(format = "%d/%m/%Y")), 
-    trim_ws = TRUE)
-
-educ |>
+    trim_ws = TRUE) |> 
   format_date(end = "end") |>
   resume_entry(title = "degree", 
                description = "institution", 
@@ -76,4 +94,34 @@ educ |>
 
 ```
 
+{{< pagebreak >}}
+
+## Focus
+
+```{r}
+#| output: asis
+read_delim(
+  file = "data/focus.csv",
+  delim = ";",
+  locale = locale(encoding = "WINDOWS-1252"),
+  escape_double = FALSE, 
+  trim_ws = TRUE) |> 
+  resume_entry(description = "focus")
+```
+
 ## Languages and Certifications
+
+```{r}
+#| output: asis
+read_delim("data/skill.csv", 
+           delim = ";", 
+           locale = locale(encoding = "WINDOWS-1252"),
+           escape_double = FALSE, 
+           trim_ws = TRUE) |> 
+  resume_entry(
+    title = "skill",
+    description = "language",
+    details = c("detail1", "detail2", "detail3", "detail4", "detail5", "detail6")
+               )
+```
+

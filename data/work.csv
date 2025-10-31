@@ -1,6 +1,8 @@
-title,location,start,end,description;;
-"PhD candidate,""Clermont-Ferrand, France"",2023-10-01,,Grant partnership Foundation for Studies and Research on International Development (FERDI) – Banque de France";;
-"Research analyst,""Groningen, Netherlands"",2022-09-01,2023-09-01,Global Center on Adaptation";;
-"Freelance consultant,""Paris, France"",2020-08-01,2022-09-01,""Crisis, Conflict, and Fragility Department. Program monitoring "; Climate security ;" Humanitarian – Development – Peace nexus. """
-"Economic Attaché,""Abuja, Nigeria"",2018-09-01,2020-08-01,""French Treasury ";" Embassy of France in Nigeria, Economic Department.""";
-"Analyst,""Abidjan, Côte d'Ivoire"",2018-01-01,2018-09-01,""French Treasury ";" Embassy of France in Côte d’Ivoire, Economic Department.""";
+position;location;start;end;employer;detail1;detail2;detail3
+Ph.D. candidate;Clermont-Ferrand, France;01/10/2023;;Foundation for Studies and Research on International Development (FERDI);Topic: The political economy of foreign aid delivery in response to climate risks;;
+Research analyst;Rotterdam and Groningen, Netherlands;01/09/2022;01/09/2023;Global Center on Adaptation;Support to the Research Lead on the GCA's new research strategy;"Spatial and household data analysis in support of the World Bank's Southern Niger Connectivity Road project
+";
+Freelance consultant;Paris, France;01/08/2020;01/09/2022;;French development agency (AFD), Fragility, Crisis and Conflict Division: support for the Minka Fund analysis and the Crisis Vulnerabilities and Resilience cross-cutting strategy;"Solidarité Internationale pour le Développement et l'Investissement (SIDI): support in M&E and technical support to data analysis and data management
+";
+Economic Attaché;Abuja, Nigeria;01/09/2018;01/08/2020;French Treasury - Embassy of France in Nigeria, Economic Department;Economic and sectoral analysis: development finance, renewable energy, financial inclusion, SMEs & innovation;;
+Analyst;Abidjan, Côte d'Ivoire;01/01/2018;01/09/2018;French Treasury - Embassy of France in Côte d'Ivoire, Economic Department;;;
