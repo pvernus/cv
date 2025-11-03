@@ -116,5 +116,7 @@ read_delim("data/skill.csv",
   - *Contact: vianney.dequiedt@uca.fr*
 - **Fleur Wouterse**: Deputy Director Office of Emergencies and Resilience, FAO. 
   - *Contact: fleur.wouterse@fao.org*
+- **Catherine Simonet**: Lead Adaptation Expert, AFD.
+  - *Contact: simonetc@afd.fr*
 - **Pascal Furth**: Head of Economic Affairs, French Embassy in Cairo, French Treasury. 
   - *Contact: pascal.furth@dgtresor.gouv.fr*
