@@ -53,7 +53,7 @@ library(tidyverse)
 library(lubridate)
 ```
 
-**Focus**: Political economy of foreign aid delivery mechanisms • Geopolitics of climate in low and middle income countries • Data analysis • Causal inference
+**Focus**: Political economy • Foreign aid delivery • Geopolitics of climate • Data analysis & causal inference
 
 ## Work Experience
 
@@ -68,9 +68,9 @@ read_delim(
                    end = col_date(format = "%d/%m/%Y")), 
   trim_ws = TRUE) |> 
   format_date(end = "end") |>
-  resume_entry(title = "position",
+  resume_entry(title = "employer",
                location = "location",
-               description = "employer", 
+               description = "position", 
                details = c("detail1", "detail2", "detail3"))
 ```
 
@@ -94,21 +94,6 @@ read_delim(
 
 ```
 
-{{< pagebreak >}}
-
-## Focus
-
-```{r}
-#| output: asis
-read_delim(
-  file = "data/focus.csv",
-  delim = ";",
-  locale = locale(encoding = "WINDOWS-1252"),
-  escape_double = FALSE, 
-  trim_ws = TRUE) |> 
-  resume_entry(description = "focus")
-```
-
 ## Languages and Certifications
 
 ```{r}
@@ -125,3 +110,11 @@ read_delim("data/skill.csv",
                )
 ```
 
+## References
+
+- **Vianney Dequiedt**: Professor in economics at CERDI-UCA and Scientific Director at FERDI.
+  - *Contact: vianney.dequiedt@uca.fr*
+- **Fleur Wouterse**: Deputy Director Office of Emergencies and Resilience, FAO. 
+  - *Contact: fleur.wouterse@fao.org*
+- **Pascal Furth**: Head of Economic Affairs, French Embassy in Cairo, French Treasury. 
+  - *Contact: pascal.furth@dgtresor.gouv.fr*
